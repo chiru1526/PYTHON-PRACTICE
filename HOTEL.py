@@ -1,6 +1,6 @@
 print ("WELCOME TO THE HOTEL")
 import time
-time.sleep(1) 
+time.sleep(2) 
 print ("ROOMS 101-105 ARE LUXURY ROOMS")
 time.sleep(1) 
 Room=int(input("SELECT A ROOM 101-110: "))
@@ -33,8 +33,10 @@ else:
         time.sleep(2)
         print("It is a normal room PRICE: ")
         print(money+500)
+print("--BILL--")
+print("ROOM=",Room)
+print("BREEAKFAST CHOICE=",BREAKFAST)
 total_price=money
-time.sleep(2)
 print("TOTAL PRICE=",total_price)
 print("THANK YOU FOR CHOOSING OUR HOTEL")
         
